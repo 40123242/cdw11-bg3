@@ -23,6 +23,7 @@
 <v t="amd.20160501215942.1" a="E"><vh>@path content/b/g3</vh>
 <v t="amd.20160501215720.1"><vh>@edit 40123242-20160505.md</vh></v>
 <v t="leo.20160525150648.1"><vh>@edit 40123242_cdw13.md</vh></v>
+<v t="leo.20160615133351.1"><vh>@edit 40123242_cdw14.md</vh></v>
 </v>
 </v>
 </v>
@@ -30,6 +31,7 @@
 <v t="amd.20160501215545.1" a="E"><vh>wsgi 程式部份</vh>
 <v t="leo.20160519100217.1"><vh>@edit bg3_40123242.py</vh></v>
 <v t="leo.20160525150720.1"><vh>@edit bg3_40123242_cdw12.py</vh></v>
+<v t="leo.20160615133504.1"><vh>@edit bg3_40123242_cdw14.py</vh></v>
 <v t="amd.20160501221015.1" a="E"><vh>@path ./../../../</vh>
 <v t="amd.20160501221001.1" a="E"><vh>@clean myflaskapp.py</vh>
 <v t="amd.20160501221001.2"><vh>myflaskapp declarations</vh></v>
@@ -101,6 +103,7 @@ app.register_blueprint(users.b.g3.bg3_40123250_cdw11.b40123250)
 app.register_blueprint(users.b.g3.bg3_40123242_cdw12.b40123242)
 app.register_blueprint(users.b.g3.bg3_40123250_cdw14.b40123250_1)
 app.register_blueprint(users.b.g3.bg3_40123224_cdw14.b40123224_1)
+app.register_blueprint(users.b.g3.bg3_40123242_cdw14.b40123242_1)
 
 
 
@@ -247,6 +250,7 @@ import users.b.g3.bg3_40123250
 import users.b.g3.bg3_40123250_cdw11
 import users.b.g3.bg3_40123250_cdw14
 import users.b.g3.bg3_40123224_cdw14
+import users.b.g3.bg3_40123242_cdw14
 #import users.b.g3.b40123242
 import users.b.g3.bg3_40123242_cdw12
 # 確定程式檔案所在目錄, 在 Windows 有最後的反斜線
