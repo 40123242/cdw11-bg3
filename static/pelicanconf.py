@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Bg3'
 SITENAME = 'CDW11 網頁 (虎尾科大MDE)'
-SITEURL = 'http://bg3-40123242.rhcloud.com/static'
+SITEURL = 'http://bg3-40123242.rhcloud.com/static/blog/index.html'
 
 # 不要用文章所在目錄作為類別
 USE_FOLDER_AS_CATEGORY = False
